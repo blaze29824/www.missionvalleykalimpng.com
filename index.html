@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mission Valley Kalimpong</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Times New Roman', Times, serif;  
+            background-image: url('bg.jpg');
+            color: #ffffff;
+        }
+
+        header {
+            background-image: url('bg.jpg');
+            color: #fff;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #a9c666;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: #fff;
+            text-align: center;
+            padding: 10px 15px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #8aa35e;
+            color: #fff;
+        }
+
+        .hero {
+            background-image: url('925.jpeg');
+            height: 400px;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+
+        .hero-text {
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #fff;
+            background-color: rgb(82, 145, 106);
+            padding: 15px;
+        }
+
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .rooms, .amenities {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .box {
+            background-color: #b9d081;
+            width: 28%;
+            margin: 10px;
+            padding: 15px;
+            box-shadow: 0 0 5px rgb(251, 250, 250);
+            border-radius: 5px;
+        }
+
+        .box img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: #3a3939;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Mission Valley Kalimpong</h1>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#rooms">Rooms</a>
+    <a href="#interior">Interior</a>
+    <a href="#exterior">Exterior</a>
+    <a href="#services">Services</a>
+    <a href="#bookingsite">Booking Sites</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero">
+    <div class="hero-text">
+        <h2>Your Home Away from Home</h2>
+        <p>Comfortable stays at affordable prices.</p>
+    </div>
+</section>
+
+<section class="content" id="rooms">
+    <h2>Our Rooms</h2>
+    <div class="rooms">
+        <div class="box">
+            <img src="singleroom.jpeg" alt="Standard Room">
+            <h3>Single Room</h3>
+            <p>Cozy room with essential amenities.</p>
+        </div>
+    <div class="rooms">
+        <div class="box">
+            <img src="doubleroom.jpg" alt="Standard Room">
+            <h3>Double Room</h3>
+            <p>Perfect room for couples.</p>
+        </div>
+        <div class="box">
+            <img src="familyroom.jpg" alt="Family Room">
+            <h3>Family Room</h3>
+            <p>Spacious room perfect for families.</p>
+        </div>
+        <div class="box">
+            <img src="quadroom.jpg" alt="Quad Room">
+            <h3>Quad Room</h3>
+            <p>Budget-friendly room for 4 people.</p>
+        </div>
+    </div>
+</section>
+
+<section class="content" id="interior">
+    <h2>Interior</h2>
+    <div class="rooms">
+        <div class="box">
+            <img src="reception.jpg" alt="Reception">
+            <h3>Reception</h3>
+            <p>Our reception is welcoming, friendly, organized, helpful, and efficient.</p>
+        </div>
+    <div class="rooms">
+        <div class="box">
+            <img src="diningarea.jpg" alt="Dining Area">
+            <h3>Dining Area</h3>
+            <p>Experience exquisite dining with elegant ambiance, exceptional servicess.</p>
+        </div>
+    <div class="box">
+            <img src="lounge.jpg" alt="Lounge">
+            <h3>Lounge</h3>
+            <p>A stylish, comfortable lounge perfect for relaxation.</p>
+        </div>
+    <div class="box">
+            <img src="hall.jpg" alt="Hall">
+            <h3>Hall</h3>
+            <p>A spacious, elegant hall ideal for events.</p>
+        </div>
+    <div class="box">
+            <img src="balcony.jpeg" alt="Balcony">
+            <h3>Balcony</h3>
+            <p>A spacious balcony offering breathtaking views, perfect for relaxation.</p>
+        </div>
+    </div>
+</section>
+
+<section class="content" id="exterior">
+    <h2>Exterior</h2>
+    <div class="rooms">
+        <div class="box">
+            <img src="exteriorview.jpg" alt="exterior1">
+            <i><p>Morning view from our property</p></i>
+        </div>
+        <div class="box">
+            <img src="exterior2.jpeg" alt="exterior2">
+        </div>
+        <div class="box">
+            <img src="exterior3.jpg" alt="exterior3">
+        </div>
+        <div class="box">
+            <img src="parkingarea.jpg" alt="exterior1">
+        </div>
+    </div>
+</section>
+
+<section class="content" id="services">
+    <h2>Our Services</h2>
+    <div class="amenities">
+        <div class="box">
+            <h3>Free Wi-Fi</h3>
+            <p>Stay connected during your stay.</p>
+        </div>
+        <div class="box">
+            <h3>Complimentary Breakfast</h3>
+            <p>Start your day with a hearty meal.</p>
+        </div>
+        <div class="box">
+            <h3>Free Toiletries</h3>
+            <p>Enjoy the comfort of home with our complimentary toiletries!</p>
+        </div>
+        <div class="box">
+            <h3>Room Service</h3>
+            <p>Experience convenience at your fingertips with our prompt room service.</p>
+        </div>
+        <div class="box">
+            <h3>Free Parking</h3>
+            <p>Convenient on-site parking.</p>
+        </div>
+    </div>
+</section>
+
+<html lang="en">
+<head>
+   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirect Links</title>
+    <style>
+        /* Styling for the container */
+        .links-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 20px;
+        }
+
+        /* Styling for individual logos */
+        .logo {
+            width: 100px;
+            height: auto;
+            margin: 10px;
+            cursor: pointer;
+        }
+
+        /* Hover effect on the logos */
+        .logo:hover {
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Click the logos to book your stay through our trusted booking platforms:</h2>
+<section class="content" id="bookingsite">
+    <div class="links-container">
+        <a href="https://www.booking.com/hotel/in/mission-valley.html?aid=304142&label=gen173nr-1FCAEoggI46AdIM1gEaGyIAQGYATG4ARfIAQzYAQHoAQH4AQKIAgGoAgO4ArGHkrwGwAIB0gIkYzU2YjNjZGMtMmZjYy00ZDlmLTgxOTEtYzIwNmViYTYzZDli2AIF4AIB&sid=74d32062777f6d85069985bd269f68db&dest_id=5882236&dest_type=hotel&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1736737762&srpvid=3fbf163042d30193&type=total&ucfs=1&" target="_blank">
+            <img src="b.png" alt="Booking.com" class="logo">
+        </a>
+        <a href="https://www.agoda.com/en-in/mission-valley/hotel/kalimpong-in.html?countryId=35&finalPriceView=1&isShowMobileAppPrice=false&cid=1922885&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-01-21&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=INR&isFreeOccSearch=false&tag=6f147157-60b8-459f-af1a-9935d44970e9&los=1&searchrequestid=47689b01-c4fd-47fb-b82f-ab01a68a702e&ds=tRJCEIju0MBj2fsF" target="_blank">
+            <img src="agoda.png" alt="Agoda" class="logo">
+        </a>
+        <a href="https://www.tripadvisor.in/Hotel_Review-g503707-d19599478-Reviews-Mission_Valley_Kalimpong-Kalimpong_Kalimpong_District_West_Bengal.html" target="_blank">
+            <img src="Tripadvisor.png" alt="TripAdvisor" class="logo">
+        </a>
+        <a href="https://www.airbnb.co.in/s/MISSION-VALLEY-Kalimpong--Reshambari-Road--Chotta-Bhalukhop--Kalimpong--West-Bengal--India/homes?flexible_trip_lengths%5B%5D=one_week&price_filter_input_type=0&channel=EXPLORE&date_picker_type=calendar&query=MISSION%20VALLEY%20Kalimpong%2C%20Kalimpong%2C%20West%20Bengal&source=structured_search_input_header&search_type=user_map_move&price_filter_num_nights=5&refinement_paths%5B%5D=%2Fhomes&place_id=ChIJQWAn06Qh5DkRpAgVwzLFq0w&search_mode=regular_search&ne_lat=27.07540884473939&ne_lng=88.47534082011805&sw_lat=27.073271131826537&sw_lng=88.47287314056996&zoom=17.868317696214262&zoom_level=17.868317696214262&search_by_map=true&monthly_start_date=2025-02-01&monthly_length=3&monthly_end_date=2025-05-01" target="_blank">
+            <img src="airbnb.png" alt="Airbnb" class="logo">
+        </a>
+        <a href="https://www.expedia.co.in/Kalimpong-Hotels-Misson-Valley-Kalimpong.h104453223.Hotel-Information?chkin=2025-01-27&chkout=2025-01-28&x_pwa=1&rfrr=HSR&pwa_ts=1736738067659&referrerUrl=aHR0cHM6Ly93d3cuZXhwZWRpYS5jby5pbi9Ib3RlbC1TZWFyY2g%3D&useRewards=false&rm1=a2&regionId=6130351&destination=Kalimpong%2C+West+Bengal%2C+India&destType=MARKET&selected=104453223&latLong=27.07169%2C88.4729&sort=RECOMMENDED&top_dp=4080&top_cur=INR&userIntent=&selectedRoomType=325822245&selectedRatePlan=399389934&searchId=efb8c721-4202-4e82-935e-440f6d180fad" target="_blank">
+            <img src="klipartz.com.png" height="200" alt="Expedia" class="logo">
+        </a>
+    </div>
+</section>
+
+</body>
+</html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding-top: 50px;
+        }
+
+        .contact-container {
+            display: inline-block;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-number {
+            font-size: 20px;
+            margin: 10px 0;
+        }
+
+        .contact-number a {
+            text-decoration: none;
+            color: #fdfdfd;
+        }
+
+        .contact-number a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Contact Us</h2>
+
+    <div class="contact-container" id="contact">
+        <div class="contact-number">
+            📞 <a href="tel:+91 8509008812">+91 8509008812</a>
+        </div>
+        <div class="contact-number">
+            📞 <a href="tel:+91 8509495843">+91 8509495843</a>
+        </div>
+        <div class="contact-number">
+                <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcSGKnXFkphnkwlQMRMjSxHdvKbMzcqtwzHJLvVZbCcZDQZtRQRDKrNhlQKhqtdCNjHJnMcXx">missionvalley19@gmail.com</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Mission Valley Kalimpong. All Rights Reserved. -Yaswa-</p>
+    </footer>
+
+</body>
+</html>
+
+
+
